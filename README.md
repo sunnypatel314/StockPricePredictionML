@@ -1,7 +1,6 @@
 # Stock Price Prediction Model
 
-This project contains multiple stock price prediction models. So far the only models we have made are Random Forest Classifiers and Gradient Boosting Classifiers 
-from the SK-Learn library in Python.
+This project contains multiple stock price prediction models. So far the only models we have made are Random Forest Classifiers and Gradient Boosting Classifiers from the SK-Learn library in Python.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,9 +12,12 @@ from the SK-Learn library in Python.
 
 ## Introduction
 
+**The only stock in consideration for now is the SPY index fund. This is for simplicity and consistency. Index funds are also generally more predictable.**
+
 This project aims to predict stock price movements using machine learning techniques. 
 Specifically, we employ Random Forest and Gradient Boost classifiers to predict whether 
 the stock price will go up or down as we are not so concern with the exact value it will be.
+
 
 ## Installation
 
