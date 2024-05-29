@@ -10,7 +10,6 @@ from the SK-Learn library in Python.
 - [Models](#models)
   - [Random Forest Classifier](#random-forest-classifier)
   - [Gradient Boost Classifier](#gradient-boost-classifier)
-- [Evaluation](#evaluation)
 
 ## Introduction
 
