@@ -41,7 +41,7 @@ The features we are aiming to extract are close ratios and trends for the last *
 The Random Forest Classifier will attempt to predict the directionality (up or down) of the stock based on all of the features gathered from the data.
 
 For Random Forest Classification, data scaling and normalization is generally not required and tree-algorithms in machine learning 
-are considering data in its raw form. For Gradient Boosting, however, scaling is required. The model at its best has achieved **56% accuracy** on data it has not seen (testing data), which is good considering the 
+are considering data in its raw form. For Gradient Boosting, however, scaling is required. The models at their best have achieved **56% accuracy** on data not seen (testing data), which is good considering the 
 unpredictable nature of stock market prices. There is a function in the python notebook called **"simulate_paper_trading"**, which compares the profit you could have 
 achieved if you followed the predictor compared to if you blindly bought and sold everyday. Just to be clear, the function mentioned only considers 
 testing data (data it has never seen before) to make sure the model does not have an unfair advantage.
